@@ -1,0 +1,49 @@
+# Maven
+target/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# VS Code
+.vscode/
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Logs
+*.log
+logs/
+
+# Test Reports
+test-output/
+allure-results/
+allure-report/
+reports/
+screenshots/
+
+# Environment Files
+.env
+.env.local
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Selenium Downloads
+drivers/
+
+# Temporary Files
+*.tmp
+*.temp
+
+# Maven Wrapper Logs
+.maven/
