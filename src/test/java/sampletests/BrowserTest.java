@@ -1,6 +1,6 @@
 package sampletests;
 import org.testng.annotations.Test;
-import drivers.DriverFactory;
+import driver.DriverFactory;
 import basetests.BaseTest;
 
 public class BrowserTest extends BaseTest {
