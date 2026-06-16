@@ -5,5 +5,28 @@
             <class name="sampletests.LoginTest"/>
         </classes>
     </test>
-    
+    <test name="Browser_Test">
+        <classes>
+            <class name="sampletests.BrowserTest"/>
+        </classes>
+    </test>
+
+    <test name="Chrome">
+
+        <parameter name="browser" value="chrome"/>
+
+        <classes>
+            <class name="sampletests.BrowserTestParameter"/>
+        </classes>
+
+    </test>
+    <test name="Firefox">
+
+        <parameter name="browser" value="firefox"/>
+
+        <classes>
+            <class name="sampletests.BrowserTestParameter"/>
+        </classes>
+
+    </test>
 </suite>
